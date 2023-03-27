@@ -42,8 +42,12 @@ function Particle() {
           },
           modes: {
             push: {
-              particles_nb: 1,
+              particles_nb: 4,
             },
+          repulse: {
+            distance: 200,
+            duration: 0.4,
+          },
           },
         },
         retina_detect: true,
