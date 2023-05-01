@@ -45,7 +45,7 @@ function Projects() {
 
             />
           </Col>
-          {/*<Col md={6} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
                 imgPath={luneNoire}
                 isBlog={false}
@@ -54,7 +54,7 @@ function Projects() {
                 ghLink="https://github.com/allamed/astro-calculator"
                 demoLink="https://mysteresdufeminin.netlify.app/"
             />
-          </Col>*/}
+          </Col>
 
 
         </Row>
