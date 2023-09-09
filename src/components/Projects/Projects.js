@@ -6,6 +6,7 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import dental from "../../Assets/Projects/dental.gif";
 import taskFlow from "../../Assets/Projects/gif x2_edit_2.gif";
+import taskFlowMobile from "../../Assets/Projects/taskFlowMobile.gif";
 import suicide from "../../Assets/Projects/suicide.png";
 import luneNoire from "../../Assets/Projects/astro.gif";
 
@@ -20,8 +21,8 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={6} className="project-card">
+        <Row  style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={taskFlow}
               isBlog={false}
@@ -35,7 +36,8 @@ function Projects() {
 
 
 
-          <Col md={6} className="project-card">
+
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={dental}
               isBlog={false}
@@ -45,7 +47,7 @@ function Projects() {
 
             />
           </Col>
-          <Col md={6} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
                 imgPath={luneNoire}
                 isBlog={false}
@@ -56,8 +58,24 @@ function Projects() {
             />
           </Col>
 
-
         </Row>
+        <Row md={4} style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={taskFlowMobile}
+                isBlog={false}
+                title="TaskFlow Mobile"
+                description="Mobile version of TaskFlow , built with React Native and Expo"
+                ghLink="https://github.com/allamed/taskFlow_mobile"
+
+            />
+          </Col>
+          <Col md={8} className="project-card">
+          </Col>
+        </Row>
+
+
+
       </Container>
     </Container>
   );
