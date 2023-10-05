@@ -21,7 +21,7 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row  style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row md={6}  style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={taskFlow}
@@ -59,7 +59,7 @@ function Projects() {
           </Col>
 
         </Row>
-        <Row md={4} style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row md={6} style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
                 imgPath={taskFlowMobile}
@@ -67,6 +67,7 @@ function Projects() {
                 title="TaskFlow Mobile"
                 description="Mobile version of TaskFlow , built with React Native and Expo"
                 ghLink="https://github.com/allamed/taskFlow_mobile"
+                type={"portrait"}
 
             />
           </Col>
