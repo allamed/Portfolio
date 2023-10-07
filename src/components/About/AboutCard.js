@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Allamed </span>
 
             <br />I am a Software engineer, Web developer
-            <br />Interested in DevOps and Cloud computing
+            <br />AWS Certified Solutions Architect Associate
             <br />
             {/*Apart from coding, some other activities that I love to do!*/}
           </p>
@@ -28,10 +28,10 @@ function AboutCard() {
             </li>
           </ul>*/}
 
-          <p style={{ color: "#b2bec3" }}>
+          {/*<p style={{ color: "#b2bec3" }}>
             "Create with purpose, and let your work inspire meaningful change"{" "}
           </p>
-          <footer className="blockquote-footer">Allamed</footer>
+          <footer className="blockquote-footer">Allamed</footer>*/}
         </blockquote>
       </Card.Body>
     </Card>
