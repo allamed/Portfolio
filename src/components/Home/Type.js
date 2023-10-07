@@ -8,8 +8,7 @@ function Type() {
         strings: [
             "Software Engineer",
             "Developer",
-          "MERN Stack Developer",
-          "Interested in DevOps",
+          "AWS Certified Solutions Architect Associate",
         ],
         autoStart: true,
         loop: true,
